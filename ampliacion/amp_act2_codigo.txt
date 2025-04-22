@@ -1,0 +1,40 @@
+classDiagram
+    class Banda {
+        +String nombre
+        +int anioFormacion
+        +tocarEnVivo()
+    }
+
+    class Radiohead {
+        +String estilo = "Alternativo"
+        +experimentar()
+    }
+
+    class Coldplay {
+        +String estilo = "Pop Rock"
+        +cambiarEstilo()
+    }
+
+    class U2 {
+        +String estilo = "Rock"
+        +activarConcienciaSocial()
+    }
+
+    class TieneDiscografia {
+        <<interface>>
+        +listarDiscos()
+    }
+
+    class Disco {
+        +String titulo
+        +int anio
+        +mostrarInfo()
+    }
+
+    %% Relaciones
+    Radiohead --|> Banda
+    Coldplay --|> Banda
+    U2 --|> Banda
+
+    Disco ..|> TieneDiscografia
+    Banda "1" --> "0..*" Disco

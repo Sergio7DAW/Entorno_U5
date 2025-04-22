@@ -1,0 +1,71 @@
+classDiagram
+    class Universidad {
+        -String nombre
+        -String ubicacion
+        +agregarFacultad()
+    }
+
+    class Facultad {
+        -String nombre
+        -String decano
+    }
+
+    class Carrera {
+        -String nombre
+        -int duracionAnios
+    }
+
+    class Asignatura {
+        -String nombre
+        -int creditos
+    }
+
+    class Alumno {
+        -String nombre
+        -String id
+        +matricularse()
+    }
+
+    class Matricula {
+        -String fecha
+        +inscribirAsignaturas()
+    }
+
+    class PeriodoAcademico {
+        -String anio
+        -String semestre
+    }
+
+    class Docente {
+        -String nombre
+        -String especialidad
+    }
+
+    class Horario {
+        -String dia
+        -String horaInicio
+        -String horaFin
+    }
+
+    class HistorialAcademico {
+        +mostrarNotas()
+    }
+
+    class Nota {
+        -float valor
+    }
+
+    %% Relationships
+    Universidad "1" --> "1..*" Facultad
+    Facultad "1" --> "1..*" Carrera
+    Carrera "1" --> "1..*" Asignatura
+    Asignatura "1" --> "1" Docente
+    Asignatura "1" --> "1..*" Horario
+    Alumno "1" --> "1..*" Matricula
+    Matricula "1" --> "1" Carrera
+    Matricula "1" --> "1..*" Asignatura
+    Matricula "1" --> "1" PeriodoAcademico
+    Alumno "1" --> "1" HistorialAcademico
+    HistorialAcademico "1" --> "0..*" Nota
+    Nota "1" --> "1" Asignatura
+    Nota "1" --> "1" PeriodoAcademico
