@@ -1,0 +1,554 @@
+title:
+Command
+Version:
+1.13.1
+valuesFileName:
+
+Num.Elems:
+18
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+6
+shortDescr:
+Act. 2
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+22
+ptul:
+40 50
+ptdr:
+82 69
+Num.Links:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+24
+ptul:
+159 331
+ptdr:
+266 394
+Num.Links:
+4
+link objId:
+33
+link objId:
+34
+link objId:
+38
+link objId:
+46
+name:
+Personas
+Num.Attrs:
+2
+name:
+DNI
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+27
+ptul:
+399 131
+ptdr:
+489 157
+Num.Links:
+2
+link objId:
+29
+link objId:
+38
+name:
+Padre
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+29
+Num.Pts:
+3
+453 157
+452 215
+576 218
+objStartId:
+27
+objEndId:
+28
+roleAname:
+Padre
+roleBname:
+hijo
+roleAmult:
+
+roleBmult:
+
+composition:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+31
+Num.Pts:
+3
+452 348
+453 228
+576 231
+objStartId:
+30
+objEndId:
+28
+roleAname:
+Madre
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+34
+Num.Pts:
+2
+411 361
+266 362
+objStartId:
+30
+objEndId:
+24
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+44
+ptul:
+557 194
+ptdr:
+563 213
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+41
+ptul:
+441 171
+ptdr:
+450 190
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+43
+ptul:
+559 235
+ptdr:
+565 254
+Num.Links:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+30
+ptul:
+411 348
+ptdr:
+501 374
+Num.Links:
+2
+link objId:
+31
+link objId:
+34
+name:
+Madre
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+42
+ptul:
+470 319
+ptdr:
+479 338
+Num.Links:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+33
+Num.Pts:
+6
+621 233
+618 472
+619 500
+372 498
+374 392
+266 394
+objStartId:
+28
+objEndId:
+24
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+28
+ptul:
+576 207
+ptdr:
+666 233
+Num.Links:
+3
+link objId:
+29
+link objId:
+31
+link objId:
+33
+name:
+Hijo
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+38
+Num.Pts:
+2
+444 157
+252 331
+objStartId:
+27
+objEndId:
+24
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+5
+shortDescr:
+1...*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+40
+ptul:
+173 309
+ptdr:
+200 328
+Num.Links:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+46
+Num.Pts:
+2
+217 331
+218 161
+objStartId:
+24
+objEndId:
+25
+roleAname:
+
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+1
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+25
+ptul:
+182 135
+ptdr:
+272 161
+Num.Links:
+1
+link objId:
+46
+name:
+Familia
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+6
+stereotype:
+
+constraint:
+
+shortDescrLen:
+236
+shortDescr:
+Este es el diagrama explicando las relaciones familiares.
+->La familia esta compuesta de 1 o varias personas,
+->Las personas esta relacionado de herencia con  padre, madre e hijo.
+->Los padres, madres tienen una relacion 1...* con hijos
+bgrColor:
+255 255 128
+fgrColor:
+0 0 0
+objId:
+23
+ptul:
+179 34
+ptdr:
+595 110
+Num.Links:
+0

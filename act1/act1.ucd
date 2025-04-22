@@ -1,0 +1,592 @@
+title:
+Command
+Version:
+1.13.1
+valuesFileName:
+
+Num.Elems:
+12
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+6
+shortDescr:
+Act. 1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+89
+ptul:
+40 50
+ptdr:
+82 69
+Num.Links:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+90
+Num.Pts:
+2
+269 165
+441 162
+objStartId:
+86
+objEndId:
+85
+roleAname:
+Cuenta
+roleBname:
+Libreta
+roleAmult:
+1
+roleBmult:
+1
+composition:
+0
+type:
+1
+stereotype:
+
+constraint:
+abstract
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+88
+ptul:
+494 394
+ptdr:
+605 457
+Num.Links:
+2
+link objId:
+96
+link objId:
+99
+name:
+GrupoContactos
+Num.Attrs:
+1
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+0
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+abstract
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+86
+ptul:
+162 147
+ptdr:
+269 226
+Num.Links:
+1
+link objId:
+90
+name:
+Cuenta
+Num.Attrs:
+2
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+96
+Num.Pts:
+2
+494 446
+264 446
+objStartId:
+88
+objEndId:
+87
+roleAname:
+GrupoContactos
+roleBname:
+Contacto
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+99
+Num.Pts:
+2
+579 237
+577 394
+objStartId:
+85
+objEndId:
+88
+roleAname:
+Libreta
+roleBname:
+GrupoContactos
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+102
+Num.Pts:
+2
+441 232
+258 378
+objStartId:
+85
+objEndId:
+87
+roleAname:
+Libreta
+roleBname:
+Contacto
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+103
+ptul:
+436 245
+ptdr:
+445 264
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+104
+ptul:
+479 454
+ptdr:
+488 473
+Num.Links:
+0
+type:
+1
+stereotype:
+
+constraint:
+abstract
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+87
+ptul:
+148 378
+ptdr:
+264 489
+Num.Links:
+2
+link objId:
+96
+link objId:
+102
+name:
+Contacto
+Num.Attrs:
+4
+name:
+Direccion
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+0
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Telefono
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+0
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+abstract
+shortDescrLen:
+91
+shortDescr:
+This is the class description.
+You should see this note in the html exported documentation.
+bgrColor:
+128 255 255
+fgrColor:
+0 0 0
+objId:
+85
+ptul:
+441 137
+ptdr:
+640 237
+Num.Links:
+3
+link objId:
+90
+link objId:
+99
+link objId:
+102
+name:
+Libreta
+Num.Attrs:
+0
+Num.Opers:
+3
+name:
+InsertarContacto
+type:
+
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+1
+name:
+Contacto
+type:
+
+defValue:
+
+name:
+ObtenerContacto
+type:
+
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+1
+name:
+string
+type:
+
+defValue:
+
+name:
+ObtenerContactos
+type:
+Contacto[]
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+0
+type:
+6
+stereotype:
+
+constraint:
+
+shortDescrLen:
+155
+shortDescr:
+Diagrama de clases para una libreta de contactos. 
+
+Donde el grupo de contactos contiene contactos
+
+ y la libreta contiene grupo de contactos y contactos. 
+bgrColor:
+255 255 128
+fgrColor:
+0 0 0
+objId:
+105
+ptul:
+194 23
+ptdr:
+514 115
+Num.Links:
+0
